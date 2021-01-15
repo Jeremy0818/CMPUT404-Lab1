@@ -2,7 +2,6 @@ import requests
 print(requests.__version__)
 
 url = "http://www.google.com"
-res = requests.get(url)
 r = requests.get(url)
 print(r.status_code)
 
